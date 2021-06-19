@@ -1,5 +1,7 @@
 # VET: Identifying and Avoiding UI Exploration Tarpits
 
+*We're in the process of populating this repository. If you don't see something you're looking for, please check back later.*
+
 ## Extended explanation of how VET addresses exploration tarpits
 
 - For *Exploration Space Partition* regions, VET prevents the action that is observed immediately before the region on the trace, by instructing OurInfra to disable the UI element on which the action is exerted during testing.
@@ -50,3 +52,7 @@ Additionally, `regions.tar.bz2` contains JSON files recording VET's identified e
 - When `{RUN_ID}` is `top3`, where `top3` indicates the aggregated results for all three traces from the initial runs of the tool-app pair, the file contains a list of list-of-actions to address the identified regions, sorted by the ranks of regions. Each list-of-action is a JSON array of strings, each being in the following form:
   - `{TOOL_NAME}-{APP_NAME}-{RUN_ID}/{TIMESTAMP}.json`: disable the UI element involved in this step in enhanced runs. If no UI element is involved in this step, restart the app when this screen is seen during enhanced runs.
   - `!{TOOL_NAME}-{APP_NAME}-{RUN_ID}/{TIMESTAMP}.json`: Simply restart the app when this screen is seen during enhanced runs.
+
+## Contact
+
+Please direct your questions to [Wenyu Wang](mailto:wenyu2@illinois.edu).
