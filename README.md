@@ -1,4 +1,6 @@
-# VET: Identifying and Avoiding UI Exploration Tarpits
+## About
+
+This repository contains artifacts for **[VET: Identifying and Avoiding UI Exploration Tarpits](https://doi.org/10.1145/3468264.3468554)**, published at ESEC/FSE 2021.
 
 *We're in the process of populating this repository. If you don't see something you're looking for, please check back later.*
 
