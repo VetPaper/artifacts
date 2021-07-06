@@ -73,6 +73,8 @@ Please see [this repo](https://github.com/TOLLER-Android/main) for the emulator 
 
 ### Misc scripts
 
+### Installation packages of apps involved in experiments
+
 ## Contact
 
 Please direct your questions to [Wenyu Wang](mailto:wenyu2@illinois.edu).
