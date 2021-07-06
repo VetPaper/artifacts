@@ -55,6 +55,24 @@ Additionally, `regions.tar.bz2` contains JSON files recording VET's identified e
   - `{TOOL_NAME}-{APP_NAME}-{RUN_ID}/{TIMESTAMP}.json`: disable the UI element involved in this step in enhanced runs. If no UI element is involved in this step, restart the app when this screen is seen during enhanced runs.
   - `!{TOOL_NAME}-{APP_NAME}-{RUN_ID}/{TIMESTAMP}.json`: Simply restart the app when this screen is seen during enhanced runs.
 
+### Screenshots cpatured during trace recording
+
+### Manual analysis data
+
+## Experiment artifacts
+
+### The TOLLER tool for UI monitoring and manipulation
+
+Please see [this repo](https://github.com/TOLLER-Android/main) for TOLLER's on-device agent.
+
+We will add TOLLER's on-computer driver later.
+
+### Test environment
+
+Please see [this repo](https://github.com/TOLLER-Android/main) for the emulator image and configurations.
+
+### Misc scripts
+
 ## Contact
 
 Please direct your questions to [Wenyu Wang](mailto:wenyu2@illinois.edu).
